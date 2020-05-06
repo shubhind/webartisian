@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>artisian</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="refresh" content="60">
+        <meta name="author" content="shubham indoliya">
+        <style> 
+            ul{
+                list-style-type: none;
+            }
+            header a:visited{
+                color: black;
+                text-decoration: none;
+            }
+            header a:hover{
+                color:blue;
+                text-decoration: none;
+            }
+            header a:link{
+                color: black;
+                text-decoration: none;
+            }
+            .top img{
+                transition: 0.5s;
+            }
+            .top img:hover{
+                transform: scale(1.2) ;
+            }
+            div{
+                display: inline-block;
+            }
+            .logo{
+                position: relative;
+                top: -35px;
+                margin-left: 30px;
+            }
+            .top{
+                position: relative;
+                top: -30px;
+                margin-left: 20px;
+            }
+            .oops:hover b{
+                color: black;
+            }
+            .dot{
+                cursor: pointer;
+                height: 10px;
+                position: relative;
+                width: 25px;
+                background-color:#bbb;
+                display: inline-block;
+                border-radius: 4px;
+                margin-left: 5px;
+                transition: background-color .5s ease;
+            }
+            .dot:hover, .active{
+                background-color: #717171;
+            }
+            .slide{
+                position: relative;
+            }
+            .prev,.next{
+                cursor: pointer;
+                top: 80%;
+                transition: .5s;
+                position: absolute;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 0 5px 5px 0;
+                background-color: rgba(0,0,0,.2);
+                margin-left: 30px;
+            }
+            .next{
+                right: 0;
+                border-radius: 5px 0 0 5px;
+                margin-right: 30px;
+            }
+            .prev:hover,.next:hover{
+                background-color: rgba(0, 0, 0, .8);
+            }
+            .text{
+                position: absolute;
+                font-size: 25px;
+                color: #f2f2f2;
+                font-weight: bold;
+                top: 670px;
+                left: 610px;
+            }
+            .number{
+                font-weight: bold;
+                position: absolute;
+                color: #f2f2f2;
+                font-size: 25px;
+                top: 15px;
+                left: 15px;
+            }
+            footer ul li{
+                margin-right: 40px;
+            }
+            ul li a{
+                transition: .5s;
+            }
+            ul li span a:any-link{
+                color: teal;
+            }
+            ul li span a:hover{
+                color: black;
+            }
+            .fade{
+                transition: .2s;
+            }
+            .fade:hover{
+                opacity: .91;
+            }
+            .shub:any-link{
+                color: #3d3d29;
+            }
+            .cap1:any-link,.cap2:any-link,.cap3:any-link{
+                color: black;
+            }
+            .cap1:hover,.cap2:hover,.cap3:hover{
+                color: teal;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div style="margin-right:350px; margin-left: 75px;"><a href="artisian1.html"><img src="icon1.png" height="75" width="100"></a></div>
+            <div class="logo"><a href="artisian1.html"><b>OUR PRODUCTS</b></a>
+                <!-- <ul>
+                    <li><a href=""><b>PRODUCTS</b></a></li>
+                    <li><a href=""><b>AND COCONUTS BUTTERS</b></a></li>
+                    <li><a href=""><b>CHOCOLATE SPREADS</b></a></li>
+                    <li><a href=""><b>SNACK POUCHES</b></a></li>
+                    <li><a href=""><b>PALEO PACKS</b></a></li>
+                </ul> -->
+            </div>
+            <div class="logo"><a href="artisian1.html"><b>RECIPES AND MORE</b></a>
+                <!-- <ul>
+                    <li><a href=""><b>ARTICLES</b></a></li>
+                    <li><a href=""><b>RECIPES</b></a></li>
+                </ul> -->
+            </div>
+            <div class="logo"><a href="artisian1.html"><b>ABOUT US</b></a>
+                <!--<ul>
+                    <li><a href=""><b>ABOUT US</b></a></li>
+                    <li><a href=""><b>ORGANIC PROMISE</b></a></li>
+                    <li><a href=""><b>R.A.W AND C.L.E.A.N CERTIFICATIONS</b></a></li>
+                    <li><a href=""><b>FAQ</b></a></li>
+                    <li><a href=""><b>NEWSLETTER</b></a></li>
+                </ul>-->
+            </div>
+            <div class="logo"><a href="artisian1.html"><b>CONTACT</b></a></div>
+            <div  class="top"><img src="facebook.png" height="30" width="37"></div>
+            <div class="top"><img src="instagram.png" height="30" width="37"></div>
+            <div class="top"><img src="mail.png" height="25" width="25"></div>
+            <div class="top"><img src="search.png" height="25" width="25"></div>
+        </header>
+        <hr>
+        <nav>
+            <div>
+                <div class="slide">
+                    <div class="number">1 / 5</div>
+                    <img src="tajmahal.png" width="100%" height="700">
+                    <div class="text">Taj Mahal</div>
+                </div>
+                <div class="slide">
+                    <div class="number">2 / 5</div>
+                    <img src="cherries.png" width="100%" height="700">
+                    <div class="text">Cherries</div>
+                </div>
+                <div class="slide">
+                    <div class="number">3 / 5</div>
+                    <img src="machupichu.png" width="100%" height="700">
+                    <div class="text">MachuPichu</div>
+                </div>
+                <div class="slide">
+                    <div class="number">4 / 5</div>
+                    <img src="niagara.png" width="100%" height="700">
+                    <div class="text">Niagara Falls</div>
+                </div>
+                <div class="slide">
+                    <div class="number">5 / 5</div>
+                    <img src="mountain.png" width="100%" height="700">
+                    <div class="text">Mountains</div>
+                </div>
+                <a class="prev" onclick="chngslide(-1)">&#10094;</a>
+                <a class="next" onclick="chngslide(1)">&#10095;</a> 
+            </div><br>
+            <div style="margin-left: 580px; position: relative; top: -70px;">
+                <span class="dot" onclick="putslide(1)"></span>
+                <span class="dot" onclick="putslide(2)"></span>
+                <span class="dot" onclick="putslide(3)"></span>
+                <span class="dot" onclick="putslide(4)"></span>
+                <span class="dot" onclick="putslide(5)"></span>
+            </div>
+        </nav>
+        <section style="background-color:#e6ffe6;border-radius: 5px;">
+            <center><img src="usdaorg.png" width="110" height="110" style="border-radius: 50%;"></center>
+            <center><h2>ALWAYS ORGANIC.NO COMPROMISE</h2></center>
+            <h2 style="text-align: center;font-family: cursive;">if you're like us,you probably look for the purest food to power your best self.
+                Wether you're getting all<br>the kids off to school or scaling a peak in Andes,you know clean food helps you
+                perform at the<br>highest vibration.<br><br>At Artisana,we believe the way we eat means everything
+                to how we feel.We're dedicated to making foods<br>that help us feel our best everyday.</h2>
+            <a href="artisian2.html" style="text-decoration: none;font-size:x-large;font-family: cursive;margin-left: 350px;color:teal;" class="oops"><b>Learn more about our commitment to organic,pure foods</b></a>
+        <br><br><br></section>
+        <h2 style="font-family: cursive;margin-left: 85px;">FEATURED PRODUCTS</h2>
+        <nav style="margin-left: 70px;">
+            <div id="caption1"><img src="https://cdn.shopify.com/s/files/1/0013/0754/1548/products/raw-coconut-butter-artisana-14oz_400x.jpg?v=1533663031" style="cursor: pointer;"></div>
+            <div><img src="https://cdn.shopify.com/s/files/1/0013/0754/1548/products/raw-cashew-butter-artisana-14oz_400x.jpg?v=1560871667" style="cursor: pointer;"></div>
+            <div><img src="https://cdn.shopify.com/s/files/1/0013/0754/1548/products/raw-almond-butter-artisana-14oz_400x.jpg?v=1588279126" style="cursor: pointer;"></div>
+        </nav>
+        <nav style="margin-left: 150px;font-family: cursive;">
+            <div><a href="" style="text-decoration: none;" class="cap1">Raw Organic Coconut Butter</a><br>from $6.99</div>
+            <div style="margin-left: 200px;"><a href="" style="text-decoration: none;" class="cap2">Raw Organic Cashew Butter</a><br>from $9.99</div>
+            <div style="margin-left: 200px;"><a href="" style="text-decoration: none;" class="cap3">Raw Organic Almond Butter</a><br>from $11.99</div>
+        </nav>
+        <footer style="background-color: #f5f5f0">
+            <h2 style="text-align: center;font-weight: 300; color: #5b5b3e;font-size: 30px;padding-top: 30px;">AS SEEN IN</h2>
+            <ul style="list-style-type: none;display: flex; flex-direction: row;">
+                <li style="margin-left: 250px;font-size: 65px;margin-top: -15px;">goop</li>
+                <li style="font-size: 45px;font-weight: bold;">Outside</li>
+                <li style="font-size: 45px;font-weight: 700;">Sunset</li>
+                <li style="font-size: 25px;margin-top: 10px;font-family: cursive;"><b>REALSIMPLE</b></li>
+            </ul><br>
+        </footer>
+        <div style="width: 100%;margin-top: 25px;">
+            <hr style="margin-right: 85px;margin-left: 85px;"><span style="margin-top: 50px;margin-bottom: 50px;margin-left: 85px;font-size: 20px;">RECIPES</span><hr style="margin-left: 85px;margin-right: 85px;">
+        </div>
+        <ul style="list-style-type: none;display: flex;flex-direction: row;margin-top: 10px;">
+            <li><a href=""><img src="cookies.png" width="370" height="220" style="margin-left: 45px;margin-right: 27px;"></a></li>
+            <li><a href=""><img src="cupcake.png" width="370" height="220" style="margin-right: 27px;"></a></li>
+            <li><a href=""><img src="gingerbread.png" width="370" height="220"></a></li>
+        </ul>
+        <ul style="list-style-type: none;display: flex;flex-direction: row;margin-left: 45px;">
+            <li><span style="font-size: 17px;" class="kun"><a href="" style="text-decoration: none; font-family: cursive;">TAHINI-DATE OATMEAL COOKIES</a></span><br>
+                <br><span style="font-size: 17px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:#3d3d29 ;">We used dates instead of raisins in these oatmeal<br>cookes and add some oomph with our tahini.</span></li>
+            <li style="margin-left: 27px;"><span style="font-size: 17px;"><a href="" style="text-decoration: none; font-family: cursive;" class="kun">KID-FRIENDLY STAY AT HOME ALMOND CHIA<br>PUDDING</a></span><br>
+                <br><span style="font-size: 17px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:#3d3d29 ;">Here's a super simple,easy to measure,and funto mix<br>recipe that even the littlest littles will love making AND<br>eating.</span></li>
+            <li style="margin-left: 27px;"><span style="font-size: 17px;"><a href="" style="text-decoration: none; font-family: cursive;" class="kun">PALEO GINGERBREAD</a></span><br>
+                <br><span style="font-size: 17px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:#3d3d29 ;">Thos palleo version of gingerbread includes pumpkin<br>for additional seasonal flavour and flair.Top with melted<br>coconut butter for gorgeous king.</span></li>
+        </ul>
+        <footer style="position: relative;">
+            <div><a href=""><img src="blackgrape.png" style="margin-left: 85px;" width="770" height="390" class="fade"></a></div>
+            <div>
+                <ul style="list-style-type: none;">
+                <li style="position: absolute;top: 80px;"><a href="" style="text-decoration: none;font-size: 28px;line-height: 150%;" class="shub">BAKING WITH<br>CASHEW BUTTER?<br>YES.</a></li>
+                <li style="color: #3d3d29;top:220px;position: absolute;font-size: 18px;font-weight: 400;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Here's our three favourite paleo and gluten-<br>free recipes</li>
+                <li style="position: absolute;top:300px;"><button style="background-color:#1a8cff;width: 100px;height: 40px;border: none;border-radius: 5px;"><a href="artisian5.html" style="text-decoration: none;color: white;">READ MORE</a></button></li>
+                </ul>
+            </div>
+        </footer>
+        <nav style="position: relative;">
+            <div style="position: relative;top: -80px;margin-left: 130px;font-family: cursive;"><span style="font-size: 25px;">ARTISANA MAKES</span><br><br>the only nut matters to achieve RAW and<br>CLEAN certifications
+                <br><br><button style="background: #1a8cff;width: 120px;height: 40px;border-radius: 5px;border: none;"><a href="" style="color: white;text-decoration: none;">LEARN MORE</a></button>
+            </div>
+            <div><img src="https://cdn.shopify.com/s/files/1/0013/0754/1548/files/cleanrawlabelinfographic-01_800x.png?v=1536789200"></div>
+        </nav>
+        <footer style="background-color: #f5f5f0;width: 100%;height: 100px;position: relative;"><div style="position: absolute;top:40%;left: 37%;">@ 2020 Artisana Organics. Powered by Shopify</div></footer>
+        <script>
+            var index=1;
+            showslide(index);
+            function chngslide(n){
+                showslide(index+=n);
+            }
+            function putslide(n){
+                showslide(index=n);
+            }
+            function showslide(n){
+                var i,slide,dot;
+                if(n>5) {index=1}
+                if(n<1) {index=5}
+                slide=document.getElementsByClassName("slide");
+                dot=document.getElementsByClassName("dot");
+                for(i=0;i<slide.length;i++) slide[i].style.display="none";
+                for(i=0;i<dot.length;i++) dot[i].className=dot[i].className.replace(" active","");
+                slide[index-1].style.display="block";
+                dot[index-1].className+=" active";
+            }
+        </script>
+    </body>
+</html>

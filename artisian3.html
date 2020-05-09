@@ -38,34 +38,57 @@
             .link:hover{
                 color: black;
             }
+            .menu{
+                display: none;
+                position:absolute;
+                min-width: 160px;
+                background-color: #f9f9f9;
+                box-shadow: 0 8px 16px 0 black;
+                z-index: 1;
+            }
+            .logo:hover .menu{
+                display: block;
+            }
+            .menu a{
+                color: black;
+                display: block;
+                text-decoration: none;
+                padding: 12px 6px;
+            }
+            .menu:hover a{
+                background-color: #f1f1f1;
+            }
+            .menu a:hover{
+                background-color: #e6ffff;
+            }
         </style>
     </head>
     <body>
         <header>
             <div style="margin-right:350px; margin-left: 75px;"><a href="artisian1.html"><img src="icon1.png" height="75" width="100"></a></div>
             <div class="logo"><a href="artisian1.html" style="text-decoration: none;"><b>OUR PRODUCTS</b></a>
-                <!-- <ul>
-                    <li><a href=""><b>PRODUCTS</b></a></li>
-                    <li><a href=""><b>AND COCONUTS BUTTERS</b></a></li>
-                    <li><a href=""><b>CHOCOLATE SPREADS</b></a></li>
-                    <li><a href=""><b>SNACK POUCHES</b></a></li>
-                    <li><a href=""><b>PALEO PACKS</b></a></li>
-                </ul> -->
+                <div class="menu">
+                    <a href="">PRODUCTS</a>
+                    <a href="">AND COCONUTS BUTTERS</a>
+                    <a href="">CHOCOLATE SPREADS</a>
+                    <a href="">SNACK POUCHES</a>
+                    <a href="">PALEO PACKS</a>
+                </div> 
             </div>
             <div class="logo"><a href="artisian1.html" style="text-decoration: none;"><b>RECIPES AND MORE</b></a>
-                <!-- <ul>
-                    <li><a href=""><b>ARTICLES</b></a></li>
-                    <li><a href=""><b>RECIPES</b></a></li>
-                </ul> -->
+                <div class="menu">
+                    <a href="">ARTICLES</a>
+                    <a href="">RECIPES</a>
+                </div>
             </div>
             <div class="logo"><a href="artisian1.html" style="text-decoration: none;"><b>ABOUT US</b></a>
-                <!--<ul>
-                    <li><a href=""><b>ABOUT US</b></a></li>
-                    <li><a href=""><b>ORGANIC PROMISE</b></a></li>
-                    <li><a href=""><b>R.A.W AND C.L.E.A.N CERTIFICATIONS</b></a></li>
-                    <li><a href=""><b>FAQ</b></a></li>
-                    <li><a href=""><b>NEWSLETTER</b></a></li>
-                </ul>-->
+                <div class="menu">
+                    <a href="">ABOUT US</a>
+                    <a href="">ORGANIC PROMISE</a>
+                    <a href="">R.A.W AND C.L.E.A.N CERTIFICATIONS</a>
+                    <a href="">FAQ</a>
+                    <a href="">NEWSLETTER</a>
+                    </div>
             </div>
             <div class="logo"><a href="artisian1.html" style="text-decoration: none;"><b>CONTACT</b></a></div>
             <div  class="top"><img src="facebook.png" height="30" width="37"></div>
